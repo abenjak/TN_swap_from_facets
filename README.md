@@ -36,3 +36,13 @@ Options:
 
 ![plot](./example/N_T.HetMarkFreq.png)
 `cumulative segment size with nhet frequency below threshold: 144.6 MB`
+
+<br>
+
+To better understand what is going on, let's look at CN results from *facets* below.
+
+For the swapped samples, there is an obvious decrease of abundance of informative (heterozygous) SNPs in regions of chr1, chr13 and chr15 (density of dots in the middle `log-odds-ratio` plot).
+![plot](./example/N_T.cncf.png)
+
+When the samples are not swapped, we can see that these regions correspond to LOH (`copy number (em)` = 0, in the bottom plot).
+![plot](./example/T_N.cncf.png)
