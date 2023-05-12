@@ -14,10 +14,10 @@ Tumor/normal sample swaps are not easy to spot. One possibility is to look into 
 ```
 Options:
 	--minMarks=MINMARKS
-		minimum number of markers that must be present in a segment. [1000]
+		minimum number of markers that must be present in a segment [1000]
 
 	--threshold=THRESHOLD
-		nhet frequency threshold. [0.025]
+		nhet frequency threshold [0.025]
 
 	--outPrefix=OUTPREFIX
 		prefix for output files [will deduce from input]
@@ -25,3 +25,14 @@ Options:
 	-h, --help
 		Show this help message and exit
 ```
+
+## Example
+
+#### No swap
+
+![plot](./example/T_N.HetMarkFreq.png)
+
+#### Tumor/Normal swap
+
+![plot](./example/N_T.HetMarkFreq.png)
+`cumulative segment size with nhet frequency below threshold: 144.6 MB`
